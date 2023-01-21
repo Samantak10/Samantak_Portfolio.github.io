@@ -446,6 +446,7 @@
 
   .qualification_work{
     display: block;
+    text-align: left;
   }
   
   @media screen and (min-width: 768px) and (max-width: 1960px){
@@ -454,6 +455,39 @@
       text-align: center; 
     }
   }
+  /*===== Skills =====*/
+  .skills_data{
+    padding: 3rem 1rem;
+    background-color: #FFF;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .4s;
+    box-shadow: 0 4px 6px rgb(174,190,205,.3);
+  }
+  
+  .skills_icon, .skills_title{
+    margin-bottom: var(--mb-2);
+    color: var(--first-color);
+  }
+
+  .skills_icon{
+    font-size: 3rem;
+  }
+
+  .skills_title{
+    font-size: var(--h3-font-size);
+  }
+
+  .skills_description{
+    margin-bottom: var(--mb-4);
+  }
+
+  .skills_data:hover{
+    transform: translateY(-1rem);
+    box-shadow: 0 6px 8px rgba(174,190,205,.4);
+  }
+
+
   
   /*===== PORTFOLIO =====*/
   
